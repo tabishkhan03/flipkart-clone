@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home_design.css">
+    <link rel="shortcut icon" href="images/flipkart-icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" id="navbar_home">
+            <div class="first">
+                <div class="nav-container">
+                    <img id="homefkimg" src="images/flipkart-navbarimg.png" alt="">
+                    <div id="expplus"><a href="#" id="explore">Explore<span id="plus">Plus</span>
+                            <img id="plus-img" src="images/plus_aef861.png" alt=""></a></div>
+                </div>
+            </div>
+            <div>
+                <input id="home-search" type="text" placeholder="Search for products,brands and more">
+            </div>
+            <div>
+                <button id="search-button"><img id="searchnavhome" src="images/searchnavhome.png" alt=""></button>
+            </div>
+            <div>
+                <button id="loginbtn" type="submit" name="login">Login</button>
+            </div>
+            <div>
+                <a href="#" id="becomeaseller"><span>Become a seller</span></a>
+            </div>
+            <div>
+                <div>
+                    <a href="#" id="more"><span>More</span></a>
+                    <img id="moreimg" src="images/arrow-204-16.png" alt="">
+                </div>
+            </div>
+            <div>
+                <div id="cartdiv">
+                    <img id="cartimg" src="images/cart-70-16.png" alt="">
+                    <a href="#" id="cart"><span>cart</span></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="imgnavbar">
+        <div class="imgnavelement">
+            <a href="#" id="topoffer">
+                <div>
+                    <img src="images/topoffer.png" alt="">
+                </div>
+                <div>Top Offers</div>
+            </a>
+        </div>
+        <div class="imgnavelement">
+            <a href="#" id="grocery">
+                <div>
+                    <img src="images/grocery.png" alt="">
+                </div>
+                <div>Grocery</div>
+            </a>
+        </div>
+        <div class="imgnavelement">
+            <a href="#" id="mobiles">
+                <div>
+                    <img src="images/mobiles.png" alt="">
+                </div>
+                <div>Mobiles</div>
+            </a>
+        </div>
+        <div class="imgnavelement">
+            <a href="#" id="fashion">
+                <div>
+                    <img src="images/fashion.png" alt="">
+                </div>
+                <div>Fashion</div>
+            </a>
+        </div>
+        <div class="imgnavelement">
+            <a href="#" id="electronics">
+                <div>
+                    <img src="images/electronics.png" alt="">
+                </div>
+                <div>Electronics</div>
+            </a>
+        </div>
+        <div class="imgnavelement">
+            <a href="#" id="Home">
+                <div>
+                    <img src="images/home.png" alt="">
+                </div>
+                <div>Home</div>
+            </a>
+        </div>
+        <div class="imgnavelement">
+            <a href="#" id="Appliances">
+                <div>
+                    <img src="images/Appliances.png" alt="">
+                </div>
+                <div>Appliances</div>
+            </a>
+        </div>
+        <div class="imgnavelement">
+            <a href="#">
+                <div>
+                    <img src="images/beautytoymore.png" alt="">
+                </div>
+                <div id="beauttoysmore">Beauty,Toys & More</div>
+            </a>
+        </div>
+    </div>
+    <div class="carousel">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/carousel1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel3.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="product-section">
+        <div >
+            <div class="mainproductsectton" id="electronicsection">
+                <div class="electronich2">
+                    <h2>Best of Electronics</h2>
+                </div>
+                <div class="viewall">
+                    <a href="#">VIEW ALL</a>
+                </div>
+                <div class="electronich3">
+                    <h3>Best of Electronics</h3>
+                </div>
+            </div>
+            <div class="electronicproduct">
+                <div class="product">
+                    <a href="#" class="producta">
+                        <div>
+                            <img src="images/camera.png" alt="">
+                        </div>
+                        <div id="productname">Top Mirorless Cameras</div>
+                        <div id="price">Shopnow</div>
+                        <div id="description">Canon,Sony,fujufilm...</div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="#" class="producta">
+                        <div>
+                            <img src="images/monitor1.png" alt="">
+                        </div>
+                        <div id="productname">VeiwSonic Monitors</div>
+                        <div id="price">From ₹8000</div>
+                        <div id="description">Top Rated</div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="#" class="producta">
+                        <div>
+                            <img src="images/monitor2.png" alt="">
+                        </div>
+                        <div id="productname">Monitors</div>
+                        <div id="price">From ₹9999</div>
+                        <div id="description">SAMSUNG</div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="#" class="producta">
+                        <div>
+                            <img src="images/powerbank.png" alt="">
+                        </div>
+                        <div id="productname">Premium PowerBanks</div>
+                        <div id="price">Shop Now</div>
+                        <div id="description">Mi, realme & more</div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="#" class="producta">
+                        <div>
+                            <img src="images/laptop.png" alt="">
+                        </div>
+                        <div id="productname">Core i3 Laptops</div>
+                        <div id="price">From ₹29,990</div>
+                        <div id="description">Windows | Performance</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="ad">
+            <div class="adsection">
+                <img id="advertise" src="images/advertisement.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- ///////////////////////////////////////////////////////// -->
+    <div class="product-section">
+        <div >
+            <div class="mainproductsectton" id="electronicsection">
+                <div class="btnm">
+                    <h2>Beauty, Food, Toys & more</h2>
+                </div>
+                <div class="viewall">
+                    <a href="#">VIEW ALL</a>
+                </div>
+                <div class="electronich3">
+                    <h3>Beauty, Food, Toys & more</h3>
+                </div>
+            </div>
+            <div class="electronicproduct">
+                <div id="product1">
+                    <a href="#" class="productabtnm">
+                        <div>
+                            <img id="remotecontrolcar" src="images/remotecontrolcar.png" alt="">
+                        </div>
+                        <div id="productname">Remote Control Toys</div>
+                        <div id="price">Up to 80% Off</div>
+                        <div id="description">Buy Now!</div>
+                    </a>
+                </div>
+                <div id="product2">
+                    <a href="#" class="productabtnm">
+                        <div>
+                            <img id="tyre" src="images/tyre.png" alt="">
+                        </div>
+                        <div id="productname">Tyres</div>
+                        <div id="price">From ₹799</div>
+                        <div id="description">TApollo, Bridgestone, Ceat</div>
+                    </a>
+                </div>
+                <div id="product3">
+                    <a href="#" class="productabtnm">
+                        <div>
+                            <img id="" src="images/helmet.png" alt="">
+                        </div>
+                        <div id="productname">Rider Helmets</div>
+                        <div id="price">From ₹699</div>
+                        <div id="description">Vega, Steelbird, HRX and More</div>
+                    </a>
+                </div>
+                <div id="product4">
+                    <a href="#" class="productabtnm">
+                        <div>
+                            <img id="" src="images/teddy.png" alt="">
+                        </div>
+                        <div id="productname">Soft Toys</div>
+                        <div id="price">Upto 70% Off</div>
+                        <div id="description">Stuffed Toys, Plush Toys & more</div>
+                    </a>
+                </div>
+                <div id="product5">
+                    <a href="#" class="productabtnm">
+                        <div>
+                            <img id="" src="images/feedin.png" alt="">
+                        </div>
+                        <div id="productname">Feeding & Nursing</div>
+                        <div id="price">Up to 50% Off</div>
+                        <div id="description">Breast Pumps & More</div>
+                    </a>
+                </div>
+                <div id="product6">
+                    <a href="#" class="productabtnm">
+                        <div>
+                            <img id="" src="images/soap.png" alt="">
+                        </div>
+                        <div id="productname">Bath & Shower</div>
+                        <div id="price">Upto 40% Off</div>
+                        <div id="description">Pears, Fiama & More</div>
+                    </a>
+                </div>
+                <div id="product7">
+                    <a href="#" class="productabtnm">
+                        <div>
+                            <img id="dryfruit" src="images/dryfruit.png" alt="">
+                        </div>
+                        <div id="productname">Dry Fruits</div>
+                        <div id="price">Upto 75% Off</div>
+                        <div id="description">Happilo, Farmley & More</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ///////////////////////////////////////////////////////// -->
+    <div class="product-section">
+        <div >
+            <div class="mainproductsectton" id="electronicsection">
+                <div class="btnm">
+                    <h2>Shop Monthly Essentials</h2>
+                </div>
+                <div class="viewall">
+                    <a href="#">VIEW ALL</a>
+                </div>
+                <div class="electronich3">
+                    <h3>Shop Monthly Essentials</h3>
+                </div>
+            </div>
+            <div class="electronicproduct">
+                <div id="product1">
+                    <a href="#" class="productabtnm">
+                        <div>
+                            <img id="remotecontrolcar" src="images/dogsfeed.png" alt="">
+                        </div>
+                        <div id="productname">Dogs</div>
+                        <div id="price">Min. 50% Off</div>
+                        <div id="description"></div>
+                    </a>
+                </div>
+                <div id="product2">
+                    <a href="#" class="productabtnm">
+                        <div>
+                            <img id="tyre" src="images/catsnecklace.png" alt="">
+                        </div>
+                        <div id="productname">Cats</div>
+                        <div id="price">Min. 50% Off</div>
+                        <div id="description"></div>
+                    </a>
+                </div>
+                <div id="product3">
+                    <a href="#" class="productabtnm">
+                        <div>
+                            <img id="" src="images/foodproduct.png" alt="">
+                        </div>
+                        <div id="productname">Food Products</div>
+                        <div id="price">Min. 20% Off</div>
+                        <div id="description"></div>
+                    </a>
+                </div>
+                <div id="product4">
+                    <a href="#" class="productabtnm">
+                        <div>
+                            <img id="" src="images/homefurnish.png" alt="">
+                        </div>
+                        <div id="productname">Home Furnishing</div>
+                        <div id="price">Min. 50% Off</div>
+                        <div id="description"></div>
+                    </a>
+                </div>
+                <div id="product5">
+                    <a href="#" class="productabtnm">
+                        <div>
+                            <img id="" src="images/kitchenware.png" alt="">
+                        </div>
+                        <div id="productname">Kitchen, Cookware & Serveware</div>
+                        <div id="price">Min. 40% Off</div>
+                        <div id="description"></div>
+                    </a>
+                </div>
+                <div id="product6">
+                    <a href="#" class="productabtnm">
+                        <div>
+                            <img id="" src="images/mosquitokiller.png" alt="">
+                        </div>
+                        <div id="productname">Mosquito Killers</div>
+                        <div id="price">Min. 50% Off</div>
+                        <div id="description"></div>
+                    </a>
+                </div>
+                <div id="product7">
+                    <a href="#" class="productabtnm">
+                        <div>
+                            <img id="dryfruit" src="images/utilitylight.png" alt="">
+                        </div>
+                        <div id="productname">Utility Lighting</div>
+                        <div id="price">Min. 50% Offf</div>
+                        <div id="description"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer---------------------------------------------------------------------------->
+    <footer class="footer">
+        <div class="footerdiv1">
+            <div>
+                <div class="footermain row">
+                    <div class="footermaindiv">
+                        <div class="footermaindivhead">ABOUT</div>
+                        <a class="footermaindivheadlist">Contact Us</a>
+                        <a class="footermaindivheadlist">About Us</a>
+                        <a class="footermaindivheadlist">Careers</a>
+                        <a class="footermaindivheadlist">Flipkart Stories</a>
+                        <a class="footermaindivheadlist">Press</a>
+                        <a class="footermaindivheadlist">Flipkart Wholesale</a>
+                        <a class="footermaindivheadlist">Corporate Information</a>
+                    </div>
+                    <div class="footermaindiv">
+                        <div class="footermaindivhead">HELP</div>
+                        <a>Payments</a>
+                        <a class="footermaindivheadlist">Shipping</a>
+                        <a class="footermaindivheadlist">Cancellation &amp; Returns</a>
+                        <a class="footermaindivheadlist">FAQ</a>
+                        <a class="footermaindivheadlist">Report Infringement</a>
+                    </div>
+                    <div class="footermaindiv">
+                        <div class="footermaindivhead">POLICY</div>
+                        <a class="footermaindivheadlist">
+                            Return Policy
+                        </a>
+                        <a class="footermaindivheadlist">
+                            Terms Of Use
+                        </a>
+                        <a class="footermaindivheadlist">
+                            Security
+                        </a>
+                        <a class="footermaindivheadlist">
+                            Privacy
+                        </a>
+                        <a class="footermaindivheadlist">
+                            Sitemap
+                        </a>
+                        <a class="footermaindivheadlist">
+                            EPR Compliance
+                        </a>
+                    </div>
+                    <div class="footermaindiv">
+                        <div class="footermaindivhead">SOCIAL</div>
+                        <a href="https://www.facebook.com/flipkart" class="footermaindivheadlist">
+                            Facebook
+                        </a>
+                        <a href="https://www.twitter.com/flipkart" class="footermaindivheadlist">
+                            Twitter
+                        </a>
+                        <a href="https://www.youtube.com/flipkart" class="footermaindivheadlist">
+                            YouTube
+                        </a>
+                    </div>
+                    <div class="footermaindiv address">
+                        <div class="mailadress">
+                            <div class="footermaindivhead"><span>Mail Us:</span></div>
+                            <div class="mailadresscontent">
+                                <div class="mailadressmaincontent">
+                                    <div class="mailadressmainitems mailadresscontent">
+                                        <p>Flipkart Internet Private Limited, </p>
+                                        <p> Buildings Alyssa, Begonia &amp; </p>
+                                        <p> Clove Embassy Tech Village, </p>
+                                        <p> Outer Ring Road, Devarabeesanahalli Village, </p>
+                                        <p> Bengaluru, 560103, </p>
+                                        <p> Karnataka, India</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footermaindiv ">
+                        <div class="address">
+                            <div class="footermaindivhead">
+                                <span>Registered Office Address:</span>
+                            </div>
+                            <div class="mailadressmaincontent">
+                                <div class="mailadressmainitems mailadresscontent">
+                                    <p>Flipkart Internet Private Limited, </p>
+                                    <p> Buildings Alyssa, Begonia &amp; </p>
+                                    <p> Clove Embassy Tech Village, </p>
+                                    <p> Outer Ring Road, Devarabeesanahalli Village, </p>
+                                    <p> Bengaluru, 560103, </p>
+                                    <p> Karnataka, India </p>
+                                    <p> CIN : U51109KA2012PTC066107 </p>
+                                    <p> Telephone: <a href="#">044-45614700</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="lowerfooter">
+                        <div>
+                            <img src="images/footerbas.svg">
+                            <a>
+                                <span class="lowerfooteritems">Become a Seller</span>
+                            </a>
+                        </div>
+                        <div>
+                            <img src="images/footerad.svg">
+                            <a>
+                                <span class="lowerfooteritems">Advertise</span>
+                            </a>
+                        </div>
+                        <div>
+                            <img src="images/footergc.svg">
+                            <a><span class="lowerfooteritems">Gift Cards</span>
+                            </a>
+                        </div>
+                        <div><img src="images/footerhc.svg">
+                            <a>
+                                <span class="lowerfooteritems">Help Center</span>
+                            </a>
+                        </div>
+                        <span class="year">© 2007-2022<span>Flipkart.com</span></span>
+                        <img src="images/cards.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
